@@ -1,0 +1,24 @@
+/* Selectores de etiqueta */
+div, table, tr, td, li, ul, ol {
+    font-size: 26px;
+    color: Navy;
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Selectores de clase */
+  .input-style, .button-style, .link-style, .paragraph-style, .span-style, .video-style {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: #D0DEF8;
+    border: 1px solid navy;
+  }
+  
+  /* Selectores de identificador */
+  #audio-id, #img-id, #form-id, #body-id, #h1-id, #h2-id, #h3-id, #h4-id, #h5-id {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    background-color: #FBEEF2;
+    border: 1px solid crimson;
+  }
+  

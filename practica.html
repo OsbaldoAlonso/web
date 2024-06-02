@@ -1,0 +1,369 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>practica</title>
+    <link rel="stylesheet" href="css/tab.css">
+</head>
+<table>
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Etiqueta</th>
+            <th>Sintaxis</th>
+            <th>Descripci&oacute;n</th>
+            <th>Descripci&oacute;n Detallada</th>
+            <th>EJemplo de uso</th>
+            <th>Resultado en el navegador</th>
+        </tr>
+    </thead>
+    <tbody>
+        <td>1</td>
+        <td><a href="https://www.w3schools.com/Tags/tag_div.asp">div</a>
+        </td>
+        <td>&lt;div&gt; &lt;/div&gt;</td>
+        <td>El &lt;div&gt; define una división o una sección en un documento HTML</td>
+        <td>El &lt;div&gt se utiliza como un contenedor para elementos HTML,
+            los cuales luego se pueden estilizar
+            con CSS o manipular con JavaScript.</td>
+        <td>
+            <pre>&lt;div class="contenedor"&gt;
+    &lt;p&gt;Este es un párrafo dentro de un div.&lt;/p&gt;
+&lt;/div&gt;</pre>
+        </td>
+        <td>
+            <div style="border: 1px solid black; padding: 10px;">
+                <p>Este es un párrafo dentro de un div.</p>
+            </div>
+        </td>
+        <tr>
+            <td>2</td>
+            <td><a href="https://www.w3schools.com/html/html_tables.asp">table</a></td>
+            <td>&lt;table&gt; &lt;/table&gt;</td>
+            <td>La etiqueta &lt;table&gt; define una tabla HTML.</td>
+            <td>La etiqueta &lt;table&gt; se utiliza para crear tablas en HTML.
+                Dentro de una tabla, se utilizan otras etiquetas como &lt;tr&gt; para definir filas,
+                &lt;th&gt; para definir encabezados de tabla, y &lt;td&gt; para definir celdas.</td>
+            <td>
+                <pre>&lt;table border="1"&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Encabezado 1&lt;/th&gt;
+            &lt;th&gt;Encabezado 2&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Celda 1&lt;/td&gt;
+            &lt;td&gt;Celda 2&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;</pre>
+            </td>
+            <td>
+                <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                    </tr>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_li.asp">li</a></td>
+            <td>&lt;li&gt; &lt;/li&gt;</td>
+            <td>Define un ítem en una lista.</td>
+            <td>La etiqueta &lt;li&gt; se utiliza para definir un elemento en una lista ordenada (&lt;ol&gt;) o
+                desordenada (&lt;ul&gt;).</td>
+            <td>
+                <pre>&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            </td>
+            <td>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="https://www.w3schools.com/tags/tag_ul.asp">ul</a></td>
+            <td>&lt;ul&gt; &lt;/ul&gt;</td>
+            <td>Define una lista desordenada.</td>
+            <td>La etiqueta &lt;ul&gt; se utiliza para crear una lista desordenada.
+                Los elementos de la lista se definen usando &lt;li&gt;.</td>
+            <td>
+                <pre>&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            </td>
+            <td>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_input.asp">input</a></td>
+            <td>&lt;input /&gt;</td>
+            <td>Define un campo de entrada de datos.</td>
+            <td>La etiqueta &lt;input&gt; se utiliza para crear campos interactivos en formularios web.
+                Puede ser de varios tipos, como <code>text</code>, <code>password</code>, <code>submit</code>, etc.</td>
+            <td>
+                <pre>&lt;input type="text" placeholder="Ingrese texto" /&gt;</pre>
+            </td>
+            <td>
+                <input type="text" placeholder="Ingrese texto" />
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_button.asp">button</a></td>
+            <td>&lt;button&gt; &lt;/button&gt;</td>
+            <td>Define un botón clickable.</td>
+            <td>La etiqueta &lt;button&gt; se utiliza para crear un botón clickable en un formulario o una interfaz web.
+            </td>
+            <td>
+                <pre>&lt;button&gt;Click Me&lt;/button&gt;</pre>
+            </td>
+            <td>
+               <center> <button>Click Me</button></center>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_a.asp">a</a></td>
+            <td>&lt;a&gt; &lt;/a&gt;</td>
+            <td>Define un hipervínculo.</td>
+            <td>La etiqueta &lt;a&gt; se utiliza para crear enlaces a otras páginas web, direcciones de correo
+                electrónico, o cualquier otro URL.
+                El atributo <code>href</code> especifica la URL del enlace.</td>
+            <td>
+                <pre>&lt;a href="https://www.ejemplo.com"&gt;Visita Ejemplo&lt;/a&gt;</pre>
+            </td>
+            <td>
+                <a href="https://www.ejemplo.com">Visita Ejemplo</a>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_p.asp">p</a></td>
+            <td>&lt;p&gt; &lt;/p&gt;</td>
+            <td>Define un párrafo.</td>
+            <td>La etiqueta &lt;p&gt; se utiliza para agrupar bloques de texto en párrafos.
+                Los navegadores añaden un espacio antes y después de cada párrafo por defecto.</td>
+            <td>
+                <pre>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</pre>
+            </td>
+            <td>
+                <p>Este es un párrafo.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_span.asp">span</a></td>
+            <td>&lt;span&gt; &lt;/span&gt;</td>
+            <td>Define una sección en línea.</td>
+            <td>La etiqueta &lt;span&gt; se utiliza para agrupar elementos en línea para propósitos de estilo o
+                manipulación con scripts.</td>
+            <td>
+                <pre>&lt;span style="color: red;"&gt;Texto en rojo&lt;/span&gt;</pre>
+            </td>
+            <td>
+                <span style="color: red;">Texto en rojo</span>
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_video.asp">video</a></td>
+            <td>&lt;video&gt; &lt;/video&gt;</td>
+            <td>Define un video incrustado.</td>
+            <td>La etiqueta &lt;video&gt; se utiliza para incrustar videos en HTML.
+                Puede incluir atributos como <code>controls</code>, <code>autoplay</code>, y <code>loop</code>.</td>
+            <td>
+                <pre>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    Tu navegador no soporta el elemento de video.
+&lt;/video&gt;</pre>
+            </td>
+            <td>
+                <video controls style="max-width:400px;">
+                    <source src="video/videoplayback.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_audio.asp">audio</a></td>
+            <td>&lt;audio&gt; &lt;/audio&gt;</td>
+            <td>Define un audio incrustado.</td>
+            <td>La etiqueta &lt;audio&gt; se utiliza para incrustar archivos de audio en HTML.
+                Puede incluir atributos como <code>controls</code>, <code>autoplay</code>, y <code>loop</code>.</td>
+            <td>
+                <pre>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mp3"&gt;
+    Tu navegador no soporta el elemento de audio.
+&lt;/audio&gt;</pre>
+            </td>
+            <td>
+                <audio controls style="max-width: 200px;">
+                    <source src="audio/apple pay.m4a" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_img.asp">img</a></td>
+            <td>&lt;img /&gt;</td>
+            <td>Define una imagen.</td>
+            <td>La etiqueta &lt;img&gt; se utiliza para incrustar imágenes en una página web.
+                El atributo <code>src</code> especifica la URL de la imagen y el atributo <code>alt</code> proporciona
+                un texto alternativo.</td>
+            <td>
+                <pre>&lt;img src="imagen.jpg" alt="Descripción de la imagen" /&gt;</pre>
+            </td>
+            <td>
+                <img src="https://www.wcitv.com/wp-content/uploads/2019/04/iStock-987365514.jpg" alt="Descripción de la imagen" style="max-width: 100px;">
+            </td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_form.asp">form</a></td>
+            <td>&lt;form&gt; &lt;/form&gt;</td>
+            <td>Define un formulario HTML.</td>
+            <td>La etiqueta &lt;form&gt; se utiliza para crear un formulario HTML para la entrada del usuario.
+                Puede incluir varios campos de entrada, botones, etc.</td>
+            <td>
+                <pre>&lt;form&gt;
+    &lt;input type="text" name="nombre" placeholder="Nombre"&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+&lt;/form&gt;</pre>
+            </td>
+            <td>
+                <form>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="submit" value="Enviar">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_ol.asp">ol</a></td>
+            <td>&lt;ol&gt; &lt;/ol&gt;</td>
+            <td>Define una lista ordenada.</td>
+            <td>La etiqueta &lt;ol&gt; se utiliza para crear una lista ordenada.
+                Los elementos de la lista se definen usando &lt;li&gt;.</td>
+            <td>
+                <pre>&lt;ol&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ol&gt;</pre>
+            </td>
+            <td>
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_body.asp">body</a></td>
+            <td>&lt;body&gt; &lt;/body&gt;</td>
+            <td>Define el cuerpo del documento.</td>
+            <td>La etiqueta &lt;body&gt; se utiliza para contener todo el contenido de un documento HTML,
+                como texto, imágenes, tablas, etc.</td>
+            <td>
+                <pre>&lt;body&gt;
+    &lt;p&gt;Contenido del cuerpo&lt;/p&gt;
+&lt;/body&gt;</pre>
+            </td>
+            <td>
+                <p>Contenido del cuerpo</p>
+            </td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_hn.asp">h1,h2,h3,h4,h5  </a> 
+                 </a></td>
+            <td>&lt;h1&gt; &lt;/h1&gt;, &lt;h2&gt; &lt;/h2&gt;, &lt;h3&gt; &lt;/h3&gt;, &lt;h4&gt; &lt;/h4&gt;,
+                &lt;h5&gt; &lt;/h5&gt;</td>
+            <td>Define encabezados de diferentes niveles.</td>
+            <td>Las etiquetas &lt;h1&gt; a &lt;h5&gt; se utilizan para definir encabezados,
+                con &lt;h1&gt; siendo el más importante y &lt;h5&gt; el menos importante.</td>
+            <td>
+                <pre>&lt;h1&gt;Encabezado 1&lt;/h1&gt;
+&lt;h2&gt;Encabezado 2&lt;/h2&gt;
+&lt;h3&gt;Encabezado 3&lt;/h3&gt;</pre>
+            </td>
+            <td>
+                <h1>Encabezado 1</h1>
+                <h2>Encabezado 2</h2>
+                <h3>Encabezado 3</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_script.asp">script</a></td>
+            <td>&lt;script&gt; &lt;/script&gt;</td>
+            <td>Define un script embebido.</td>
+            <td>La etiqueta &lt;script&gt; se utiliza para incluir código JavaScript en un documento HTML.
+                Puede incluirse en el <code>&lt;head&gt;</code> o en el <code>&lt;body&gt;</code>.</td>
+            <td>
+                <pre>&lt;script&gt;
+    console.log('Hola Mundo');
+&lt;/script&gt;</pre>
+            </td>
+            <td>
+                <script>
+                    console.log('Hola Mundo');
+                </script>
+                (Abre la consola del navegador para ver el resultado)
+            </td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_style.asp">style</a></td>
+            <td>&lt;style&gt; &lt;/style&gt;</td>
+            <td>Define estilos CSS embebidos.</td>
+            <td>La etiqueta &lt;style&gt; se utiliza para incluir CSS en un documento HTML.
+                Generalmente se coloca dentro de la sección <code>&lt;head&gt;</code>.</td>
+            <td>
+                <pre>&lt;style&gt;
+    body { font-family: Arial; }
+&lt;/style&gt;</pre>
+            </td>
+            <td>
+                <style>
+                    body {
+                        font-family: Arial;
+                    }
+                </style>
+                (Este documento ya incluye estilos en el <code>&lt;head&gt;</code>)
+            </td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td><a href="https://www.w3schools.com/TAGS/tag_link.asp">link</a></td>
+            <td>&lt;link /&gt;</td>
+            <td>Define una relaci&oacute;n con un recurso externo.</td>
+            <td>La etiqueta &lt;link&gt; se utiliza para vincular documentos externos,
+                como hojas de estilo CSS. Generalmente se coloca en el <code>&lt;head&gt;</code>.</td>
+            <td>
+                <pre>&lt;link rel="stylesheet" href="estilos.css" /&gt;</pre>
+            </td>
+            <td>
+                (No hay una visualizaci&oacute;n directa, pero vincula el documento CSS)
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+</html>
